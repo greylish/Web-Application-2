@@ -1,0 +1,88 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+body{
+     width: 100%;
+    height: 100vh;
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar .logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navbar .all-new li{
+    list-style: none;
+    margin: 0 8px;
+}
+.navbar .all-new a{
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.navbar .all-new{
+    position: relative;
+    display: flex;
+}
+.navbar .all-new a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+.up .up-structure{
+  width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.up .bottom .one{
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: -3px;
+    text-align: center;
+    font-weight: bold;
+}
+.up .bottom .two{
+   font-size: 34px;
+    color: whitesmoke;
+    margin-left: -3px;
+    text-align: center;
+    font-weight: bold;
+}
+.up .bottom .three{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: -3px;
+    text-align: center;
+    font-weight: bold;
+}
+.up .up-structure .side{
+    font-size: 14px;
+    color: whitesmoke;
+    margin-left: -3px;
+    text-align: center;
+}
+.up .up-structure .down{
+    align-self: center;
+    border-radius: 6px 17px;
+}
+.up .up-structure .down button{
+    padding: 8px 16px;
+    outline: none;
+    font-size: 25px;
+    outline: whitesmoke;
+}
+p{
+    align-self: center;
+    color: whitesmoke;
+}
